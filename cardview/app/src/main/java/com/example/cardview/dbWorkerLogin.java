@@ -28,8 +28,8 @@ public class dbWorkerLogin extends AsyncTask {
     }
     @Override
     protected String doInBackground(Object[] param){
-        String cible = "http://172.16.225.213/prjStage/login.php";
-//        172.16.227.154
+        String cible = "http://192.168.2.22/prjStage/login.php";
+//        172.16.227.154  172.16.225.213
         try{
             URL url = new URL(cible);
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
